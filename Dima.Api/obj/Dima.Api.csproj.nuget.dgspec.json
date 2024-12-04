@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\Balta\\Dima\\Dima.Core\\Dima.Core.csproj": {}
+    "D:\\Dev\\Balta\\Dima\\Dima.Api\\Dima.Api.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\Balta\\Dima\\Dima.Core\\Dima.Core.csproj": {
+    "D:\\Dev\\Balta\\Dima\\Dima.Api\\Dima.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\Balta\\Dima\\Dima.Core\\Dima.Core.csproj",
-        "projectName": "Dima.Core",
-        "projectPath": "D:\\Dev\\Balta\\Dima\\Dima.Core\\Dima.Core.csproj",
+        "projectUniqueName": "D:\\Dev\\Balta\\Dima\\Dima.Api\\Dima.Api.csproj",
+        "projectName": "Dima.Api",
+        "projectPath": "D:\\Dev\\Balta\\Dima\\Dima.Api\\Dima.Api.csproj",
         "packagesPath": "C:\\Users\\amori\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\Balta\\Dima\\Dima.Core\\obj\\",
+        "outputPath": "D:\\Dev\\Balta\\Dima\\Dima.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amori\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,11 +39,22 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -56,6 +67,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

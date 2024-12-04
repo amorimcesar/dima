@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Dima.Core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Dima.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d1cb9a7ad923f26a7c5c0743a593a9a777aeae3")]
-[assembly: System.Reflection.AssemblyProductAttribute("Dima.Core")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Dima.Core")]
+[assembly: System.Reflection.AssemblyProductAttribute("Dima.Api")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Dima.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
